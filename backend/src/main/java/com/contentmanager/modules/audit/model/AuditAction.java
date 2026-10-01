@@ -1,0 +1,21 @@
+package com.contentmanager.modules.audit.model;
+
+public enum AuditAction {
+    LOGIN,
+    LOGOUT,
+    CREATE_CONTENT,
+    UPDATE_CONTENT,
+    DELETE_CONTENT,
+    SUBMIT_CONTENT,
+    APPROVE_CONTENT,
+    REJECT_CONTENT,
+    PUBLISH_CONTENT,
+    SCHEDULE_CONTENT,
+    RESTORE_VERSION,
+    AI_GENERATION,
+    USER_CREATED,
+    ROLE_CHANGED,
+    USER_STATUS_UPDATED,
+    MEDIA_UPLOAD,
+    MEDIA_DELETE
+}
